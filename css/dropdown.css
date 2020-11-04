@@ -1,0 +1,40 @@
+*{
+    margin: 0; padding: 0;
+}
+li{
+    list-style: none; 
+    text-align: center; 
+    line-height: 50px;
+}
+.main{
+    width: 450px; 
+    height: 50px; 
+    margin: 0 auto;
+}
+.sub{
+    height: 0;
+    overflow: hidden;
+    transition: 0.25s;
+}
+.main>li:hover .sub{
+    height: 250px;
+}
+.main>li{
+    width: 150px; 
+    height: 50px; 
+    float: left; 
+    font-size: 22px;
+}
+.sub>li{
+    width: 150px; 
+    height: 50px;
+    background-color: burlywood;
+}
+.main>li:hover .sub>li{
+    height: 50px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
