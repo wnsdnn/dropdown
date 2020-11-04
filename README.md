@@ -23,3 +23,5 @@
 - git pull origin main
   - `git pull https://github.com/wnsdnn/dropdown main`
   - `git pull origin main`
+
+수정 연습
