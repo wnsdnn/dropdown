@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0; text-decoration: none; text-align: center; list-style: none;}
+.main{width: 450px; line-height: 50px; margin: 0 auto;}
+.main>li{width: 150px; height: 50px; float: left; background-color: black; color: white;}
+.sub>li{overflow-y: hidden; transition: .3s; height: 0;}
+.main>li:hover .sub>li{height: 50px;}
+.main>li:hover{background-color: white; color: black;}
+.sub>li:hover{background-color: black; color: white;} 
